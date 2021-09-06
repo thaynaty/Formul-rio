@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div>
+		<h1 id="titulo">Formulário de Contato</h1>
+		<p id="subtitle"><strong>Preencha os dados</strong></p>
+		<br>
+	</div>
+
+	<form>
+		 <fieldset class="grupo">
+		 	<div class="campo">
+		 		<label for="nome"><strong>Primeiro Nome</strong></label>
+		 		<input type="text" name="PrimeiroNome" id="PrimeiroNome" required="">
+		 	</div>
+		 
+		 	<div class="campo">
+		 		<label for="sobrenome"><strong>Sobrenome</strong></label>
+		 		<input type="text" name="Sobrenome" id="Sobrenome" required="">
+		 	</div>
+		 	</fieldset> 
+		 	
+		 <div class="campo">
+		 		<label for="email"><strong>Seu Email</strong></label>
+		 		<input type="email" name="email" id="email" required="">
+		 	</div>
+		 	
+
+		 	<div class="campo">
+		 		<label><strong>Qual a sua linguagem favorita?</strong></label>
+		 		<label>
+		 			<input type="radio" name="frontend" value="HTML" checked> HTML
+		 		</label>
+		 		<label>
+		 			<input type="radio" name="frontend" value="CSS">CSS
+		 		</label>
+		 		<label>
+		 			<input type="radio" name="frontend" value="JAVASCRIPT">JAVASCRIPT
+		 		</label>
+		 		<label>
+		 			<input type="radio" name="backend" value="python">PYTHON
+		 		</label>
+		 		<label>
+		 			<input type="radio" name="backend" value="php">PHP
+		 		</label>
+		 		<label>
+		 			<input type="radio" name="backend" value="C#">C#
+		 		</label>
+		 		<label>
+		 			<input type="radio" name="backend" value="C">C
+		 		</label>
+		 		<label>
+		 			<input type="radio" name="backend" value="java">JAVA
+		 		</label>
+
+		 	</div> 
+		 	
+		 	<div class="campo">
+		 		<label for="experiência"><strong>Quanto tempo você tem de experiência?</strong></label><br>
+		 		<select id="tempo">
+		 			<option selected disable value=""></option>
+		 			<option>Menos de 1 ano</option>
+		 			<option>Entre 1 e 3 anos</option>
+		 			<option>Mais de 5 anos</option>
+		 			
+		 		</select>
+		 	</div>
+		 	
+		 	<fieldset class="grupo">
+		 		<div id="check">
+		 			<label><strong>Selecione o que gostaria de aprender</strong></label><br><br>
+		 			<input type="checkbox" id="tecnologia1" value="HTML">
+		 			<label for="tecnologia1">HTML</label>
+		 			<input type="checkbox" id="tecnologia2" value="CSS">
+		 			<label for="tecnologia1">CSS</label>
+		 			<input type="checkbox" id="tecnologia3" value="JAVASCRIPT">
+		 			<label for="tecnologia1">JAVASCRIPT</label>
+		 			<input type="checkbox" id="tecnologia4" value="PYTHON">
+		 			<label for="tecnologia1">PYTHON</label>
+		 			<input type="checkbox" id="tecnologia5" value="JAVA">
+		 			<label for="tecnologia1">JAVA</label>
+		 			<input type="checkbox" id="tecnologia1" value="C">
+		 			<label for="tecnologia1">C</label>
+		 			
+
+		 		</div>
+		 	</fieldset>
+		 	<div class="campo">
+		 		<br>
+		 		<label><strong>Descreva as suas habilidades</strong></label>
+		 		<textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+		 	</div>   
+
+		 	<button class="botao" type="submit">Pronto</button>
+
+	</form>
+
+</body>
+</html>
